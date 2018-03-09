@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+
+    android:fitsSystemWindows="true">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft = "@dimen/_40sdp"
+            android:layout_marginRight =  "@dimen/_40sdp"
+            android:layout_marginTop = "@dimen/_40sdp"
+            android:text="Thanks For Registering"
+            android:layout_alignParentTop="true"
+            android:id="@+id/thks"
+android:textAlignment="center"
+            android:textSize="@dimen/_17sdp"
+            android:textColor="@color/white"
+
+            />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft = "@dimen/_40sdp"
+            android:layout_marginRight =  "@dimen/_40sdp"
+            android:layout_marginTop = "@dimen/_10sdp"
+android:layout_below="@+id/thks"
+            android:id="@+id/yougot"
+            android:text="You got"
+            android:textAlignment="center"
+            android:textSize="@dimen/_17sdp"
+            android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft = "@dimen/_40sdp"
+            android:layout_marginRight =  "@dimen/_40sdp"
+            android:layout_marginTop = "@dimen/_10sdp"
+            android:layout_below="@+id/yougot"
+            android:text="100 Points"
+            android:id="@+id/points"
+            android:textAlignment="center"
+            android:textSize="@dimen/_27sdp"
+            android:textColor="@color/dustYellow"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft = "@dimen/_40sdp"
+            android:layout_marginRight =  "@dimen/_40sdp"
+            android:layout_marginTop = "@dimen/_10sdp"
+            android:layout_below="@+id/points"
+            android:text="To Play "
+            android:textAlignment="center"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "@dimen/_40sdp"
+                android:layout_marginRight =  "@dimen/_40sdp"
+                android:layout_marginTop = "@dimen/_10sdp"
+                android:id="@+id/loginbut"
+                android:text="PLAY"
+                style="@style/AppTheme.RoundedCornerWhiteButton"
+
+                android:textColor="@color/red"
+
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:layout_marginTop = "20dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

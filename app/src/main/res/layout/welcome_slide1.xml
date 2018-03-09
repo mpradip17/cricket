@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greencolor">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/_95sdp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/img_width_height"
+       android:visibility="gone"
+            android:layout_height="@dimen/img_width_height"
+            android:src="@drawable/ic_food" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="IPL 2018"
+            android:paddingLeft="@dimen/_16sdp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_19sdp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_16sdp"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lore"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc"
+            android:gravity="start" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

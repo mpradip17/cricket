@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/editTextLogin</item>
+        <item name="colorControlActivated">@color/editTextLogin</item>
+        <item name="colorControlHighlight">@color/editTextLogin</item>
+    </style>
+    <style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape</item>
+    </style>
+    <style name="AppTheme.RoundedCornerWhiteButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/whiterounded_shape</item>
+    </style>
+    <style name="AppTheme.DarkGreen" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape_darkgreen</item>
+    </style>
+
+
+    <style name="AppTheme.Facebbok" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/fbrounded_shape</item>
+    </style>
+    <style name="AppTheme.Google" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/googlerounded_shape</item>
+    </style>
+
+</resources>

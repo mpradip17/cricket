@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/register"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/register"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_18sdp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        android:text="REGISTER"
+        android:textColor="@color/black"
+        android:paddingLeft="@dimen/_68sdp"
+        android:paddingRight="@dimen/_68sdp"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/_68sdp"
+        android:paddingRight="@dimen/_68sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:textColor="@color/white"
+        android:text="LOG IN"
+        style="@style/AppTheme.DarkGreen"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/guideline"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+
+</android.support.constraint.ConstraintLayout>

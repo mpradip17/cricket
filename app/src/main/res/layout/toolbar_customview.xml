@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+android:background="@color/greencolor"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="left">
+
+    <ImageView
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+      android:tint="@color/white"
+      android:layout_margin="@dimen/_15sdp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="7dp"
+        android:paddingLeft="5dp"
+
+        android:drawableLeft="@drawable/arrow"
+        android:drawablePadding="5dp"
+        android:id="@+id/button" />
+
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+
+            android:layout_margin="@dimen/_15sdp"
+            android:src="@drawable/menu"
+            android:layout_alignParentRight="true"
+            android:id="@+id/notificationID"/>
+
+        <ImageView
+            android:id="@+id/notificationsCount"
+            android:layout_marginTop="5dp"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_alignRight="@+id/notificationID"
+            android:src="@drawable/notification_batch"
+
+            />
+
+
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:src="@drawable/toolbar_logo" />
+    </RelativeLayout>

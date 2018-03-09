@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_18sdp"
+            android:paddingRight="@dimen/_18sdp"
+            android:paddingLeft="@dimen/_18sdp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="@dimen/_15sdp"
+android:textStyle="bold"
+                android:text="REGISTER"
+                />
+        <LinearLayout
+            android:layout_width="fill_parent"
+
+            android:layout_marginLeft = "@dimen/_10sdp"
+            android:layout_marginRight =  "@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "5dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/editTextLogin"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="@dimen/_11sdp"
+
+                android:hint="NAME"
+                />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "@dimen/_5sdp"
+                android:theme="@style/EditTextTheme"
+                android:id="@+id/email"
+                android:padding="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:ellipsize="end"
+                android:textSize="@dimen/_11sdp"
+
+                android:maxLines="1"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:hint="Vishal"
+                android:textColorHint="@color/black"
+                />
+            <requestFocus />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "5dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/editTextLogin"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="@dimen/_11sdp"
+
+                android:hint="EMAIL"
+                />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:ellipsize="end"
+                android:textSize="@dimen/_11sdp"
+                android:theme="@style/EditTextTheme"
+
+                android:maxLines="1"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:hint="Vishal@gmail.com"
+                android:textColorHint="@color/black"
+                />
+            <requestFocus />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "@dimen/_10sdp"
+                android:gravity="center_vertical"
+                android:textColor="@color/editTextLogin"
+
+                android:textSize="@dimen/_11sdp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+
+                android:hint="PASSWORD"
+                />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_11sdp"
+
+                android:theme="@style/EditTextTheme"
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_height="match_parent"
+                android:hint="1234567"
+                />
+            <requestFocus />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "@dimen/_10sdp"
+                android:gravity="center_vertical"
+                android:textColor="@color/editTextLogin"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="@dimen/_11sdp"
+
+                android:hint="MOBILE NO"
+                />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_11sdp"
+android:maxLength="10"
+                android:inputType="number"
+                android:singleLine="true"
+
+                android:theme="@style/EditTextTheme"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_height="match_parent"
+                android:hint="993798028"
+                />
+            <requestFocus />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "@dimen/_10sdp"
+                android:gravity="center_vertical"
+                android:textColor="@color/editTextLogin"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="@dimen/_11sdp"
+
+                android:hint="CITY"
+                />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginLeft = "@dimen/_10sdp"
+                android:layout_marginRight =  "@dimen/_10sdp"
+                android:layout_marginTop = "@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_11sdp"
+
+                android:theme="@style/EditTextTheme"
+                android:maxLength="10"
+                android:inputType="number"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_height="match_parent"
+                android:hint="Tamilnadu Chennai"
+                />
+            <requestFocus />
+        </LinearLayout>
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "@dimen/_50sdp"
+                android:layout_marginRight =  "@dimen/_50sdp"
+                android:layout_marginTop = "@dimen/_15sdp"
+                android:id="@+id/register"
+                android:text="REGISTER"
+                style="@style/AppTheme.DarkGreen"
+                android:textColor="@color/white"
+
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
